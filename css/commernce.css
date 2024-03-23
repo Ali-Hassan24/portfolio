@@ -1,0 +1,164 @@
+
+
+body{
+	background: lightgrey;
+}
+#login{
+	background: url('../img/login.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.form{
+	background: rgba(146, 186, 184, 0.9);
+	color: white;
+}
+.btn-color{
+	background: #6c2a75;
+	color: white;
+}
+.login-heading{
+	color: #6c2a75;
+	font-size: 40px;
+	font-weight: bolder;
+	font-family:Algerian ;
+}
+#header{
+	background: #f85706;
+	box-shadow: 0 4px 3px gray;
+	position: sticky;
+	top: 0;
+	z-index: +3;
+}
+
+.dropdown:hover ul {
+   display: block;
+}
+.dropdown .dropdown-menu li a:hover {
+	background: orange;
+	color: black;
+}
+.dropdown .dropdown-menu li a{
+ 	background: darkorange;
+ 	color: white;
+}
+.navbar{
+	box-shadow: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: black;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+   color:black;
+   font-weight: bolder;
+}
+.icon{
+	color: white;
+}
+.fashion{
+	background: whitesmoke;
+	box-shadow: 0 2px 3px gray;
+	width: 250px;
+	margin-left: 10px;
+	transition: 1s;
+}
+
+.fashion a{
+	color: black;
+}
+.fashion a:hover{
+	color: white;
+}
+.fashion:hover{
+	background: #f85706;
+	cursor: pointer;
+	color: white;
+	transform: zoom;
+}
+.flash{
+	transition: 1s;
+}
+.flash:hover{
+	box-shadow: 0 0 8px blue ;
+	cursor: pointer;
+	transform: zoom;
+
+}
+.flash1{
+	height: 250px;
+	transition: 1s;
+}
+.flash1:hover{
+	box-shadow: 0 0 8px blue ;
+	cursor: pointer;
+	transform: translatey(-10px);
+}
+.flage{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+
+}
+.fix{
+	position: fixed;
+	bottom: 50px;
+	left: 20px;
+	width: 60px;
+	height: 60px;
+}
+.adds{
+	overflow: hidden;
+	border-radius: 20px;
+	cursor: pointer;
+}
+h1{
+	font-weight: bolder;
+	font-family: fantasy;
+}
+.addto:hover{
+	  
+	background: #dc4c64;
+	color: white;
+}
+.addto1:hover {
+	background: white;
+	color: green;
+	border: 1px solid green;
+}
+.footer{
+	background:;
+}
+.markpic{
+	height: 300px;
+}
+/*media query*/
+@media (max-width:768px){
+	.fashion{
+		width: 180px;
+		margin-left: 5px;
+	}
+	.markpic{
+		height:200px;
+	}
+	.flash1{
+		margin-bottom: 10px;
+		height: 100%;
+	}
+}
+@media (max-width: 450px){
+	.fashion{
+		width: 280px;
+		margin-top: 10px;
+	}
+	.flash1{
+		margin-bottom: 10px;
+		height: 100%;
+	}
+	.markpic{
+		height:70px;
+	}
+}
